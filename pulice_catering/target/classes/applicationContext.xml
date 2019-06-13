@@ -23,7 +23,7 @@
   <!--配置数据源-->
   <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-    <property name="url" value="jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT&amp;useSSL=false"></property>
+    <property name="url" value="jdbc:mysql://127.0.0.1:3306/pulice_catering?serverTimezone=GMT&amp;useSSL=false"></property>
     <property name="username" value="root"></property>
     <property name="password" value="123456"></property>
   </bean>
@@ -37,7 +37,7 @@
 
   <!--批量扫描mapper-->
   <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-    <property name="basePackage" value="com.huayu.dao"></property>
+    <property name="basePackage" value="com.huayu.*.*.mappper"></property>
     <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
   </bean>
 </beans>

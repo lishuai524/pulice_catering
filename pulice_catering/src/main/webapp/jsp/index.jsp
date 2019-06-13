@@ -47,9 +47,9 @@
         <li class="layui-nav-item">
             <a href="javascript:;">会员管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                <dd><a onClick="x_admin_show('会员信息列表','http://www.baidu.com')"><i
+                <dd><a onClick="x_admin_show('会员信息列表','/jsp/JC_HY_DD/HY/vip.html')"><i
                         class="iconfont">&#xe6a2;</i>会员信息列表</a></dd>
-                <dd><a onClick="x_admin_show('会员信息添加','http://www.baidu.com')"><i
+                <dd><a onClick="x_admin_show('会员信息添加','/jsp/JC_HY_DD/HY/addvip.html')"><i
                         class="iconfont">&#xe6a8;</i>会员信息添加</a></dd>
             </dl>
         </li>
