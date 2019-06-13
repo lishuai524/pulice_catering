@@ -14,6 +14,8 @@ public class Member_management implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private int id;
+
     private String head_portrait;
 
     private String name;
@@ -31,6 +33,14 @@ public class Member_management implements Serializable {
     private String cla;
 
     private String remark;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getHead_portrait() {
         return head_portrait;
