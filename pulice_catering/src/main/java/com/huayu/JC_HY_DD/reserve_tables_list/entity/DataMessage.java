@@ -1,4 +1,4 @@
-package com.huayu.JC_HY_DD.member_management.entity;
+package com.huayu.JC_HY_DD.reserve_tables_list.entity;
 
 import java.io.Serializable;
 import java.util.List;

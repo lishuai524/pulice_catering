@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author jobob
@@ -30,12 +30,12 @@ public class Member_managementController {
 
     @RequestMapping("/queryVip.do")
     @ResponseBody
-    public DataMessage queryAll(Member_management management, Integer page, Integer limit){
+    public DataMessage queryAll(Member_management management, Integer page, Integer limit) {
         DataMessage dataMessage = new DataMessage();
         dataMessage.setCode(0);
         dataMessage.setMsg("");
         dataMessage.setCount(managementService.queryAll(management).size());
-        PageHelper.startPage(page, limit, true);
+        PageHelper.startPage(page,limit,true);
         List<Member_management> list = managementService.queryAll(management);
         dataMessage.setData(list);
         return dataMessage;
@@ -52,23 +52,24 @@ public class Member_managementController {
     public String add(Member_management management) throws IOException {
 
         String str = "/layui/images/"+management.getHead_portrait();
-
         management.setHead_portrait(str);
 
         managementService.save(management);
-        return "JC_HY_DD/HY/addvip.html";
+        return "JC_HY_DD/HY/addvip.jsp";
     }
 
     @RequestMapping("/toupdate/{id}.do")
     public String toUpdate(@PathVariable(value = "id") int id, Model model) {
         Member_management management = managementService.getById(id);
         model.addAttribute("member", management);
-        return "JC_HY_DD/HY/updatevip.html";
+        return "JC_HY_DD/HY/update.jsp";
     }
 
     @RequestMapping("/update.do")
     public String update(Member_management management) {
+        String str = "/layui/images/"+management.getHead_portrait();
+        management.setHead_portrait(str);
         managementService.updateById(management);
-        return "";
+        return "JC_HY_DD/HY/vip.jsp";
     }
 }

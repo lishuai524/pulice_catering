@@ -47,9 +47,9 @@
         <li class="layui-nav-item">
             <a href="javascript:;">会员管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                <dd><a onClick="x_admin_show('会员信息列表','/jsp/JC_HY_DD/HY/vip.html')"><i
+                <dd><a onClick="x_admin_show('会员信息列表','/jsp/JC_HY_DD/HY/vip.jsp')"><i
                         class="iconfont">&#xe6a2;</i>会员信息列表</a></dd>
-                <dd><a onClick="x_admin_show('会员信息添加','/jsp/JC_HY_DD/HY/addvip.html')"><i
+                <dd><a onClick="x_admin_show('会员信息添加','/jsp/JC_HY_DD/HY/addvip.jsp')"><i
                         class="iconfont">&#xe6a8;</i>会员信息添加</a></dd>
             </dl>
         </li>
@@ -57,7 +57,7 @@
         <li class="layui-nav-item">
             <a href="javascript:;">订单管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                <dd><a onClick="x_admin_show('预定管理','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>预定管理</a></dd>
+                <dd><a onClick="x_admin_show('预定管理','/jsp/JC_HY_DD/DD/reserve.jsp')"><i class="iconfont">&#xe6a2;</i>预定管理</a></dd>
                 <dd><a onClick="x_admin_show('预定单管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>预定单管理</a></dd>
                 <dd><a onClick="x_admin_show('外卖管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>外卖管理</a></dd>
             </dl>

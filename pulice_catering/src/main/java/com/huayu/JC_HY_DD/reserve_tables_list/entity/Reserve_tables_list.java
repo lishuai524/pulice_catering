@@ -9,10 +9,12 @@ import java.io.Serializable;
  *
  * @author jobob
  * @since 2019-06-12
- */
+ * */
 public class Reserve_tables_list implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
+    private int id;
 
     private String number;
 
@@ -24,11 +26,19 @@ public class Reserve_tables_list implements Serializable {
 
     private String order_date;
 
-    private String scheduled_time;
-
     private Integer qsid;
 
     private String remark;
+
+    private Order_status order_status;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNumber() {
         return number;
@@ -65,13 +75,7 @@ public class Reserve_tables_list implements Serializable {
     public void setOrder_date(String order_date) {
         this.order_date = order_date;
     }
-    public String getScheduled_time() {
-        return scheduled_time;
-    }
 
-    public void setScheduled_time(String scheduled_time) {
-        this.scheduled_time = scheduled_time;
-    }
     public Integer getQsid() {
         return qsid;
     }
@@ -87,6 +91,14 @@ public class Reserve_tables_list implements Serializable {
         this.remark = remark;
     }
 
+    public Order_status getOrder_status() {
+        return order_status;
+    }
+
+    public void setOrder_status(Order_status order_status) {
+        this.order_status = order_status;
+    }
+
     @Override
     public String toString() {
         return "Reserve_tables_list{" +
@@ -95,7 +107,6 @@ public class Reserve_tables_list implements Serializable {
         ", people=" + people +
         ", reserved=" + reserved +
         ", order_date=" + order_date +
-        ", scheduled_time=" + scheduled_time +
         ", qsid=" + qsid +
         ", remark=" + remark +
         "}";

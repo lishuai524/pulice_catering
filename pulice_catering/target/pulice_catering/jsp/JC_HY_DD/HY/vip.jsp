@@ -1,4 +1,12 @@
-<html xmlns:th="http://www.thymeleaf.org" >
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2019/05/13
+  Time: 17:02
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html >
 <head>
     <meta charset="utf-8">
     <title>layui</title>
@@ -62,21 +70,11 @@
         var form = layui.form;
         var table = layui.table;
 
-        //监听提交
-        form.on('submit(formDemo)', function (data) {
-            var list = data.field
-            table.reload("test",{
-                where:{
-                    name:list.name,
-                    number:list.number
-                }
-            })
-            return false;
-        });
         table.render({
             elem: '#test'
             ,url:'/member_management/member-management/queryVip.do'
-            ,cols: [[
+            ,cols: [
+                [
                 {field:'id', width:'9%', title: '会员编号', sort: true}
                 ,{field:'head_portrait', width:'6%', title: '会员头像',templet: '#img'}
                 ,{field:'name', width:'9%', title: '会员名称'}
@@ -88,10 +86,24 @@
                 ,{field:'cla', width:'9%', title: '等级'}
                 ,{field:'remark', width:'13.5%', title: '备注'}
                 ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:'9%'}
-            ]]
+            ]
+            ]
             ,page: true
             ,limit:9
         });
+
+        //监听提交
+        form.on('submit(formDemo)', function (data) {
+            var list = data.field
+            table.reload("test",{
+                where:{
+                    name:list.name,
+                    number:list.number
+                }
+            })
+            return false;
+        });
+
         //监听行工具事件
         table.on('tool(test)', function(obj){
             var data = obj.data;
