@@ -1,5 +1,7 @@
 package com.huayu.JC_HY_DD.queue_state.controller;
 
+import com.huayu.JC_HY_DD.queue_state.service.impl.Queue_stateServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -14,5 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/queue_state/queue-state")
 public class Queue_stateController {
-
+    @Autowired
+    private Queue_stateServiceImpl stateService;
 }

@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.asset_information.mapper.Asset_informationMapper;
 import com.huayu.JC_HY_DD.asset_information.service.IAsset_informationService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Asset_informationServiceImpl extends ServiceImpl<Asset_informationMapper, Asset_information> implements IAsset_informationService {
+    public List<Asset_information> queryAll(Asset_information asset_information){
+        return baseMapper.queryAll(asset_information);
+    }
 
 }

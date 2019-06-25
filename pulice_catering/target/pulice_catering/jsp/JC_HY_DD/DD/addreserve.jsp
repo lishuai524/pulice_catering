@@ -48,7 +48,7 @@ To change this template use File | Settings | File Templates.
         <div class="layui-inline">
             <label class="layui-form-label">下单时间</label>
             <div class="layui-input-block">
-                <input type="text" name="order_date" id="date1" autocomplete="off" class="layui-input">
+                <input type="text" name="order_date" id="date1" autocomplete="off" class="layui-input" lay-verify="required">
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ To change this template use File | Settings | File Templates.
     <div class="layui-form-item">
         <label class="layui-form-label">状态</label>
         <div class="layui-input-inline">
-            <select name="qsid" lay-filter="aihao" id="sele">
+            <select name="qsid" lay-filter="aihao" id="sele" lay-verify="required">
                 <option value="">请选择</option>
                 <c:forEach items="${list}" var="i">
                     <option value="${i.osid}">${i.name}</option>

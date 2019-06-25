@@ -21,11 +21,22 @@ To change this template use File | Settings | File Templates.
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>会员添加</legend>
 </fieldset>
-<form class="layui-form layui-form-pane" action="/member_management/member-management/add.do"  method="post">
+<form class="layui-form layui-form-pane" action="/member_management/member-management/add.do" enctype="multipart/form-data" method="post">
+
+
+    <%--<div class="layui-upload">--%>
+        <%--<button type="button" class="layui-form-label" id="test1">头像</button>--%>
+        <%--<div class="layui-upload-list">--%>
+            <%--<img class="layui-upload-img" id="demo1" width="80px" height="80px">--%>
+            <%--<p id="demoText"></p>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+
+
     <div class="layui-form-item">
         <label class="layui-form-label">头像</label>
         <div class="layui-input-inline">
-            <input type="file" name="head_portrait" size="100px">
+            <input type="file" name="filename" size="100px" lay-verify="required" >
         </div>
     </div>
     <div class="layui-form-item">
@@ -47,7 +58,7 @@ To change this template use File | Settings | File Templates.
         <div class="layui-inline">
             <label class="layui-form-label">会员生日</label>
             <div class="layui-input-block">
-                <input type="text" name="birthday" id="date1" autocomplete="off" class="layui-input">
+                <input type="text" name="birthday" id="date1" autocomplete="off" class="layui-input" lay-verify="required">
             </div>
         </div>
     </div>
@@ -56,13 +67,12 @@ To change this template use File | Settings | File Templates.
         <div class="layui-input-inline">
             <input type="text" name="number" lay-verify="required|phone|number" placeholder="请输入手机号" autocomplete="off" class="layui-input">
         </div>
-        <div class="layui-form-mid layui-word-aux">请务必填写手机号</div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">会员地址</label>
         <div class="layui-input-inline">
-            <input type="text" name="site" lay-verify="size" placeholder="请输入" autocomplete="off" class="layui-input"/>
+            <input type="text" name="site"  lay-verify="size" placeholder="请输入" autocomplete="off" class="layui-input"/>
         </div>
     </div>
 
@@ -76,7 +86,7 @@ To change this template use File | Settings | File Templates.
     <div class="layui-form-item">
         <label class="layui-form-label">会员等级</label>
         <div class="layui-input-inline">
-            <select name="cla" lay-filter="aihao">
+            <select name="cla" lay-filter="aihao" lay-verify="required">
                 <option value="">请选择</option>
                 <option value="1">一级</option>
                 <option value="2">二级</option>
@@ -103,11 +113,13 @@ To change this template use File | Settings | File Templates.
 <script src="/layui/layui.js" charset="utf-8"></script>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
 <script>
-    layui.use(['form', 'layedit', 'laydate'], function(){
+    layui.use(['form', 'layedit', 'laydate','upload'], function(){
         var form = layui.form
             ,layer = layui.layer
             ,layedit = layui.layedit
-            ,laydate = layui.laydate;
+            ,laydate = layui.laydate
+            ,$ = layui.jquery
+            ,upload = layui.upload;
 
         //日期
         laydate.render({
@@ -142,13 +154,35 @@ To change this template use File | Settings | File Templates.
             }
         });
 
-        //监听提交
-        form.on('submit(demo1)', function(data){
-            layer.alert(JSON.stringify(data.field), {
-                title: '最终的提交信息'
-            })
-            return false;
+        //普通图片上传
+        var uploadInst = upload.render({
+            elem: '#test1'
+            ,url: "/member_management/member-management/upload.do"
+            , accept: 'images'  // 允许上传的文件类型
+            , size: 2048        // 最大允许上传的文件大小  单位 KB
+            ,before: function(obj){
+                //预读本地文件示例，不支持ie8
+                obj.preview(function(index, file, result){
+                    $('#demo1').attr('src', result); //图片链接（base64）
+                });
+            }
+            ,done: function(res){
+                //如果上传失败
+                if(res.code > 0){
+                    return layer.msg('上传失败');
+                }
+                //上传成功
+            }
+            ,error: function(){
+                //演示失败状态，并实现重传
+                var demoText = $('#demoText');
+                demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+                demoText.find('.demo-reload').on('click', function(){
+                    uploadInst.upload();
+                });
+            }
         });
+
 
     });
 </script>

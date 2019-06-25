@@ -42,6 +42,7 @@
                     <div class="layui-inline">
                         <div class="layui-input-inline">
                             <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                         </div>
                     </div>
                 </div>
@@ -194,7 +195,7 @@
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
                     $.get({
-                        url: "",
+                        url: "/reserve_tables_list/reserve-tables-list/delete/" + data.id + ".do",
                         success: function (data) {
                             if (data) {
                                 layer.msg("删除成功")

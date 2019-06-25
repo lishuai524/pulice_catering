@@ -1,5 +1,10 @@
 package com.huayu.JC_HY_DD.queuing_management.entity;
 
+import com.huayu.JC_HY_DD.information_desk.entity.Capacity;
+import com.huayu.JC_HY_DD.information_desk.entity.Zhuotaitype;
+import com.huayu.JC_HY_DD.queue.entity.Queue;
+import com.huayu.JC_HY_DD.queue_state.entity.Queue_state;
+
 import java.io.Serializable;
 
 /**
@@ -13,6 +18,8 @@ import java.io.Serializable;
 public class Queuing_management implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
+    private int id;
 
     private Integer queue_type;
 
@@ -36,6 +43,23 @@ public class Queuing_management implements Serializable {
 
     private String remark;
 
+    private Zhuotaitype zhuotaitype;
+
+    private Capacity cap;
+
+    private Queue_state queue_state;
+
+    private Queue queue;
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Integer getQueue_type() {
         return queue_type;
     }
@@ -43,6 +67,7 @@ public class Queuing_management implements Serializable {
     public void setQueue_type(Integer queue_type) {
         this.queue_type = queue_type;
     }
+
     public String getNumber() {
         return number;
     }
@@ -50,6 +75,7 @@ public class Queuing_management implements Serializable {
     public void setNumber(String number) {
         this.number = number;
     }
+
     public String getName() {
         return name;
     }
@@ -112,6 +138,38 @@ public class Queuing_management implements Serializable {
 
     public void setRemark(String remark) {
         this.remark = remark;
+    }
+
+    public Zhuotaitype getZhuotaitype() {
+        return zhuotaitype;
+    }
+
+    public void setZhuotaitype(Zhuotaitype zhuotaitype) {
+        this.zhuotaitype = zhuotaitype;
+    }
+
+    public Capacity getCap() {
+        return cap;
+    }
+
+    public void setCap(Capacity cap) {
+        this.cap = cap;
+    }
+
+    public Queue_state getQueue_state() {
+        return queue_state;
+    }
+
+    public void setQueue_state(Queue_state queue_state) {
+        this.queue_state = queue_state;
+    }
+
+    public Queue getQueue() {
+        return queue;
+    }
+
+    public void setQueue(Queue queue) {
+        this.queue = queue;
     }
 
     @Override

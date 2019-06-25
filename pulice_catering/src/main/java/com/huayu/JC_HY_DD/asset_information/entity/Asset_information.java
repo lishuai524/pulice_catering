@@ -14,6 +14,8 @@ public class Asset_information implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private int id;
+
     private String raw_material;
 
     private String kind;
@@ -27,6 +29,14 @@ public class Asset_information implements Serializable {
     private String unit;
 
     private String suggest;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getRaw_material() {
         return raw_material;

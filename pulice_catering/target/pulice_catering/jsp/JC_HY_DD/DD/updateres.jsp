@@ -20,7 +20,7 @@ To change this template use File | Settings | File Templates.
 <body>
 </blockquote>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
-    <legend>预定添加</legend>
+    <legend>预定修改</legend>
 </fieldset>
 <form class="layui-form layui-form-pane" action="/reserve_tables_list/reserve-tables-list/update.do"  method="post">
     <input type="hidden" name="id" value="${res.id}">

@@ -22,20 +22,21 @@
         <div class="layui-inline">
             <label class="layui-form-label">姓名</label>
             <div class="layui-input-inline">
-                <input type="text" name="name"  autocomplete="off" class="layui-input">
+                <input type="text" name="name" lay-verify="required" autocomplete="off" class="layui-input">
             </div>
         </div>
 
         <div class="layui-inline">
             <label class="layui-form-label">手机号</label>
             <div class="layui-input-inline">
-                <input type="text" name="number"  autocomplete="off" class="layui-input">
+                <input type="text" name="number" lay-verify="required|phone|number"  autocomplete="off" class="layui-input">
             </div>
         </div>
 
         <div class="layui-inline">
             <div class="layui-input-inline">
-                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                <button class="layui-btn" lay-submit lay-filter="formDemo">查询</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
             </div>
         </div>
     </div>
@@ -55,7 +56,6 @@
 <script type="text/html" id="img">
     <div><img style="height:35px;width:35px;border-radius:50%;line-height:50px!important;" src="{{d.head_portrait}}"></div>
 </script>
-
 <script type="text/html" id="titleTpl">
     {{#  if(d.sex == '1'){ }}
     男
@@ -75,7 +75,7 @@
             ,url:'/member_management/member-management/queryVip.do'
             ,cols: [
                 [
-                {field:'id', width:'9%', title: '会员编号', sort: true}
+                {field:'id', width:'4%', title: '会员编号', sort: true}
                 ,{field:'head_portrait', width:'6%', title: '会员头像',templet: '#img'}
                 ,{field:'name', width:'9%', title: '会员名称'}
                 ,{field:'sex', width:'9%', title: '性别',templet:"#titleTpl"}
@@ -83,9 +83,9 @@
                 ,{field:'number', width:'9%', title: '手机号码'}
                 ,{field:'site', width:'9%', title: '会员地址'}
                 ,{field:'balance', width:'9%', title: '余额'}
-                ,{field:'cla', width:'9%', title: '等级'}
-                ,{field:'remark', width:'13.5%', title: '备注'}
-                ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:'9%'}
+                ,{field:'cla', width:'4%', title: '等级'}
+                ,{field:'remark', width:'18.5%', title: '备注'}
+                ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:'14%'}
             ]
             ]
             ,page: true

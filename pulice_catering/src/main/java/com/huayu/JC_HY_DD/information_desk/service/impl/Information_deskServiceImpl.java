@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.information_desk.mapper.Information_deskMapper;
 import com.huayu.JC_HY_DD.information_desk.service.IInformation_deskService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,11 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Information_deskServiceImpl extends ServiceImpl<Information_deskMapper, Information_desk> implements IInformation_deskService {
+    public List<Information_desk> queryAll(Information_desk desk){
+        return baseMapper.queryAll(desk);
+    }
+    public Information_desk toUpdate(int id){
+        return baseMapper.toupdate(id);
+    }
 
 }

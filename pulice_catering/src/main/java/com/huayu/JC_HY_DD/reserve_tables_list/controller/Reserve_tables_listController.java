@@ -42,6 +42,8 @@ public class Reserve_tables_listController {
     }
     @RequestMapping("/add.do")
     public String add(Reserve_tables_list reserve){
+//        long date = new Date().getTime() - 1300000000000L;
+//        System.out.println(date+"++++++++++++++++++++++++++++++++++++");
         Random random = new Random();
         int r= random.nextInt(111);
         String date = new SimpleDateFormat("yyyyMMdd").format(new Date()) + r;

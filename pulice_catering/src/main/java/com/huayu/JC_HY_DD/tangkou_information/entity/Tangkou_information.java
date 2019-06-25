@@ -1,5 +1,7 @@
 package com.huayu.JC_HY_DD.tangkou_information.entity;
 
+import com.huayu.CP_CW.food_category.entity.Food_category;
+
 import java.io.Serializable;
 
 /**
@@ -14,6 +16,8 @@ public class Tangkou_information implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private int id;
+
     private String name;
 
     private String category;
@@ -23,6 +27,15 @@ public class Tangkou_information implements Serializable {
     private String executive_chef;
 
     private String remarks;
+    private Food_category categorys;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -58,6 +71,14 @@ public class Tangkou_information implements Serializable {
 
     public void setRemarks(String remarks) {
         this.remarks = remarks;
+    }
+
+    public Food_category getCategorys() {
+        return categorys;
+    }
+
+    public void setCategorys(Food_category categorys) {
+        this.categorys = categorys;
     }
 
     @Override

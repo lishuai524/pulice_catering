@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.dayinji.mapper.DayinjiMapper;
 import com.huayu.JC_HY_DD.dayinji.service.IDayinjiService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,11 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class DayinjiServiceImpl extends ServiceImpl<DayinjiMapper, Dayinji> implements IDayinjiService {
+        public List<Dayinji> queryAll(Dayinji dayinji){
+            return baseMapper.queryAll(dayinji);
+        }
 
+        public Dayinji toupdate(int id){
+            return baseMapper.toupdate(id);
+        }
 }

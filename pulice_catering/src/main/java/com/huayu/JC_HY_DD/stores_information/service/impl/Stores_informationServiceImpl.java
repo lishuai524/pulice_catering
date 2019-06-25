@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.stores_information.mapper.Stores_informationMapper;
 import com.huayu.JC_HY_DD.stores_information.service.IStores_informationService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,12 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Stores_informationServiceImpl extends ServiceImpl<Stores_informationMapper, Stores_information> implements IStores_informationService {
+    public List<Stores_information> queryAll(Stores_information information){
+     return baseMapper.queryAll(information);
+    }
+
+    public Stores_information toupdate(int id){
+        return baseMapper.toupdate(id);
+    }
 
 }

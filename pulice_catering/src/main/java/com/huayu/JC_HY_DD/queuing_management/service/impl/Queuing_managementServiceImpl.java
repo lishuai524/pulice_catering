@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.queuing_management.mapper.Queuing_managementMapper;
 import com.huayu.JC_HY_DD.queuing_management.service.IQueuing_managementService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,11 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Queuing_managementServiceImpl extends ServiceImpl<Queuing_managementMapper, Queuing_management> implements IQueuing_managementService {
+    public List<Queuing_management> queryAll(Queuing_management queuing){
+        return baseMapper.queryAll(queuing);
+    }
+    public Queuing_management toupdate(int id){
+        return baseMapper.toupdate(id);
+    }
 
 }

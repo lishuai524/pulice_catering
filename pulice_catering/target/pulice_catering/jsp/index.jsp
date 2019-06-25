@@ -58,8 +58,8 @@
             <a href="javascript:;">订单管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
                 <dd><a onClick="x_admin_show('预定管理','/jsp/JC_HY_DD/DD/reserve.jsp')"><i class="iconfont">&#xe6a2;</i>预定管理</a></dd>
-                <dd><a onClick="x_admin_show('预定单管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>预定单管理</a></dd>
-                <dd><a onClick="x_admin_show('外卖管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>外卖管理</a></dd>
+                <dd><a onClick="x_admin_show('预定单管理','/jsp/JC_HY_DD/DD/bill.jsp')"><i class="iconfont">&#xe6a8;</i>预定单管理</a></dd>
+                <dd><a onClick="x_admin_show('外卖管理','/jsp/JC_HY_DD/DD/take-out.jsp')"><i class="iconfont">&#xe6a8;</i>外卖管理</a></dd>
             </dl>
         </li>
 
@@ -159,7 +159,7 @@
                     <i class="iconfont nav_right">&#xe6a7;</i>
                 </a>
                 <ul class="sub-menu">
-                    <li><a _href="/jsp/JC_HY_DD/shop.html"><i class="iconfont">&#xe6a7;</i><cite>门店信息列表</cite></a></li>
+                    <li><a _href="/jsp/JC_HY_DD/JC/store.jsp"><i class="iconfont">&#xe6a7;</i><cite>门店信息列表</cite></a></li>
                 </ul>
             </li>
 
@@ -178,24 +178,13 @@
 
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont">&#xe6b4;</i>
-                    <cite>文件管理</cite>
-                    <i class="iconfont nav_right">&#xe6a7;</i>
-                </a>
-                <ul class="sub-menu">
-                    <li><a _href="html/grid.html"><i class="iconfont">&#xe6a7;</i><cite>文件</cite></a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:;">
                     <i class="iconfont">&#xe69e;</i>
                     <cite>资产管理</cite>
                     <i class="iconfont nav_right">&#xe6a7;</i>
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/student/queryAll.do">
+                        <a _href="/asset_information/asset-information/toquery.do">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>资产信息</cite>
                         </a>
@@ -210,7 +199,7 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/student/queryAll.do">
+                        <a _href="/jsp/JC_HY_DD/JC/tables.jsp">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>桌台信息</cite>
                         </a>
@@ -226,7 +215,7 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/student/queryAll.do">
+                        <a _href="/jsp/JC_HY_DD/JC/queue.jsp">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>队列列表</cite>
                         </a>
@@ -242,7 +231,7 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/student/queryAll.do">
+                        <a _href="/jsp/JC_HY_DD/JC/paidui.jsp">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>排队列表</cite>
                         </a>
@@ -258,9 +247,39 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/student/queryAll.do">
+                        <a _href="/tangkou_information/tangkou-information/toquery.do">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>堂口列表</cite>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe69e;</i>
+                    <cite>打印机管理</cite>
+                    <i class="iconfont nav_right">&#xe6a7;</i>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a _href="/jsp/JC_HY_DD/JC/dayinji.jsp">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>打印机列表</cite>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe69e;</i>
+                    <cite>模板展示</cite>
+                    <i class="iconfont nav_right">&#xe6a7;</i>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a _href="/jsp/JC_HY_DD/JC/moban.jsp">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>模板</cite>
                         </a>
                     </li>
                 </ul>
@@ -278,18 +297,12 @@
         </ul>
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='/jsp/JC_HY_DD/shop.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <%--<iframe src='/jsp/JC_HY_DD/shop.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>--%>
+                <img src="/img/a5628e71-464e-421d-b516-cd96d5f58f5f_0.png" width="100%" height="100%">
             </div>
         </div>
     </div>
 </div>
 <div class="page-content-bg"></div>
-<!-- 右侧主体结束 -->
-<!-- 中部结束 -->
-<!-- 底部开始 -->
-<!--<div class="footer">
-    <div class="copyright">Copyright ©2019 L-admin v2.3 All Rights Reserved</div>
-</div>-->
-<!-- 底部结束 -->
 </body>
 </html>

@@ -14,13 +14,13 @@ public class Stores_information implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private Integer sid;
+    private int id;
 
     private String shop_name;
 
     private String picture;
 
-    private Integer manager;
+    private String manager;
 
     private String business_hours;
 
@@ -30,17 +30,18 @@ public class Stores_information implements Serializable {
 
     private String shop_site;
 
-    private String QR_code;
+    private String ewmcode;
 
     private String update_data;
 
-    public Integer getSid() {
-        return sid;
+    public int getId() {
+        return id;
     }
 
-    public void setSid(Integer sid) {
-        this.sid = sid;
+    public void setId(int id) {
+        this.id = id;
     }
+
     public String getShop_name() {
         return shop_name;
     }
@@ -55,13 +56,15 @@ public class Stores_information implements Serializable {
     public void setPicture(String picture) {
         this.picture = picture;
     }
-    public Integer getManager() {
+
+    public String getManager() {
         return manager;
     }
 
-    public void setManager(Integer manager) {
+    public void setManager(String manager) {
         this.manager = manager;
     }
+
     public String getBusiness_hours() {
         return business_hours;
     }
@@ -90,13 +93,15 @@ public class Stores_information implements Serializable {
     public void setShop_site(String shop_site) {
         this.shop_site = shop_site;
     }
-    public String getQR_code() {
-        return QR_code;
+
+    public String getEwmcode() {
+        return ewmcode;
     }
 
-    public void setQR_code(String QR_code) {
-        this.QR_code = QR_code;
+    public void setEwmcode(String ewmcode) {
+        this.ewmcode = ewmcode;
     }
+
     public String getUpdate_data() {
         return update_data;
     }
@@ -108,7 +113,7 @@ public class Stores_information implements Serializable {
     @Override
     public String toString() {
         return "Stores_information{" +
-        "sid=" + sid +
+        "sid=" + id +
         ", shop_name=" + shop_name +
         ", picture=" + picture +
         ", manager=" + manager +
@@ -116,7 +121,7 @@ public class Stores_information implements Serializable {
         ", phone=" + phone +
         ", email=" + email +
         ", shop_site=" + shop_site +
-        ", QR_code=" + QR_code +
+        ", QR_code=" + ewmcode +
         ", update_data=" + update_data +
         "}";
     }

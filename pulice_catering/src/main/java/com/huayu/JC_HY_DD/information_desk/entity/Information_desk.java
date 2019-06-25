@@ -1,5 +1,8 @@
 package com.huayu.JC_HY_DD.information_desk.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
 
 /**
@@ -14,6 +17,7 @@ public class Information_desk implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @TableId(value = "ldid", type = IdType.AUTO)
     private Integer ldid;
 
     private String number;
@@ -27,6 +31,12 @@ public class Information_desk implements Serializable {
     private String location;
 
     private Integer sotid;
+
+    private Zhuotaitype zhuotaitype;
+
+    private Capacity cap;
+
+    private State_of_tables state;
 
     public Integer getLdid() {
         return ldid;
@@ -76,6 +86,30 @@ public class Information_desk implements Serializable {
 
     public void setSotid(Integer sotid) {
         this.sotid = sotid;
+    }
+
+    public Zhuotaitype getZhuotaitype() {
+        return zhuotaitype;
+    }
+
+    public void setZhuotaitype(Zhuotaitype zhuotaitype) {
+        this.zhuotaitype = zhuotaitype;
+    }
+
+    public Capacity getCap() {
+        return cap;
+    }
+
+    public void setCap(Capacity cap) {
+        this.cap = cap;
+    }
+
+    public State_of_tables getState() {
+        return state;
+    }
+
+    public void setState(State_of_tables state) {
+        this.state = state;
     }
 
     @Override

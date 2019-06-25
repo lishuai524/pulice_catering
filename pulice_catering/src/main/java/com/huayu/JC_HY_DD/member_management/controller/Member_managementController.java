@@ -9,8 +9,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -27,6 +31,9 @@ import java.util.List;
 public class Member_managementController {
     @Autowired
     private Member_managementServiceImpl managementService;
+
+    @Autowired
+    private HttpServletRequest request;
 
     @RequestMapping("/queryVip.do")
     @ResponseBody
@@ -49,9 +56,19 @@ public class Member_managementController {
     }
 
     @RequestMapping("/add.do")
-    public String add(Member_management management) throws IOException {
-
-        String str = "/layui/images/"+management.getHead_portrait();
+    public String add(@RequestParam("filename") MultipartFile pictureFile, Member_management management) throws IOException {
+//        Random random = new Random();
+//        int r= random.nextInt(111);
+//        String picName = new SimpleDateFormat("yyyyMMdd").format(new Date()) + r;
+        String e = request.getSession().getServletContext().getRealPath("");
+        e = e.substring(0,e.indexOf("target"))+"src\\main\\webapp\\img\\";
+        String oriName = pictureFile.getOriginalFilename();
+        String extName = oriName.substring(oriName.lastIndexOf("."));
+        File file = new File(e+oriName);
+        if(!file.exists()){
+            pictureFile.transferTo(new File(e + oriName));
+        }
+        String str = "/img/"+oriName;
         management.setHead_portrait(str);
 
         managementService.save(management);
@@ -66,10 +83,20 @@ public class Member_managementController {
     }
 
     @RequestMapping("/update.do")
-    public String update(Member_management management) {
-        String str = "/layui/images/"+management.getHead_portrait();
+    public String update(@RequestParam("filename") MultipartFile pictureFile,Member_management management) throws IOException {
+        String e = request.getSession().getServletContext().getRealPath("");
+        e = e.substring(0,e.indexOf("target"))+"src\\main\\webapp\\img\\";
+        String oriName = pictureFile.getOriginalFilename();
+        String extName = oriName.substring(oriName.lastIndexOf("."));
+        File file = new File(e+oriName);
+        if(!file.exists()){
+            pictureFile.transferTo(new File(e + oriName));
+        }
+        String str = "/img/"+oriName;
         management.setHead_portrait(str);
         managementService.updateById(management);
         return "JC_HY_DD/HY/vip.jsp";
     }
+
+
 }

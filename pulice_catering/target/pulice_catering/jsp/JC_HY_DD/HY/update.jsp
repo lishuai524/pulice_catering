@@ -21,15 +21,14 @@
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>会员修改</legend>
 </fieldset>
-<form class="layui-form layui-form-pane" action="/member_management/member-management/update.do"  method="post">
+<form class="layui-form layui-form-pane" action="/member_management/member-management/update.do"  enctype="multipart/form-data" method="post">
     <input type="hidden" name="id" value="${member.id}">
     <div class="layui-form-item">
         <label class="layui-form-label">选择头像</label>
         <div class="layui-input-inline">
             <img src="${member.head_portrait}" width="50px" height="50px">
-            <input type="file" name="head_portrait">
+            <input type="file" name="filename" lay-verify="required">
         </div>
-        <div class="layui-form-mid layui-word-aux">请选择头像否则默认修改为空</div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">会员姓名</label>
@@ -51,7 +50,7 @@
         <div class="layui-inline">
             <label class="layui-form-label">会员生日</label>
             <div class="layui-input-block">
-                <input type="text" name="birthday" id="date1" autocomplete="off" class="layui-input"
+                <input type="text" name="birthday" id="date1"  lay-verify="required" autocomplete="off" class="layui-input"
                        value="${member.birthday}">
             </div>
         </div>
@@ -62,7 +61,6 @@
             <input type="text" name="number" placeholder="请输入手机号" lay-verify="required|phone|number" autocomplete="off" class="layui-input"
                    value="${member.number}">
         </div>
-        <div class="layui-form-mid layui-word-aux">请务必填写手机号</div>
     </div>
 
     <div class="layui-form-item">
@@ -84,7 +82,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">会员等级</label>
         <div class="layui-input-inline">
-            <select name="cla" lay-filter="aihao">
+            <select name="cla" lay-filter="aihao" lay-verify="required">
                 <option value="">请选择</option>
                 <option value="1" ${'1' eq member.cla ? 'selected':''}>一级</option>
                 <option value="2" ${'2' eq member.cla ? 'selected':''}>二级</option>

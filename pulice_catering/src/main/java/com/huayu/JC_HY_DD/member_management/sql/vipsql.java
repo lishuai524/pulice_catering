@@ -9,7 +9,7 @@ public class vipsql {
         if (member != null){
             if (member.getName() != null && !member.getName().equals("")){
                 str.append(" and name like '%"+member.getName()+"%'");
-            }else if(member.getNumber() != null && !member.getNumber().equals("")){
+            } if(member.getNumber() != null && !member.getNumber().equals("")){
                 str.append(" and number like '%"+member.getNumber()+"%'");
             }
         }

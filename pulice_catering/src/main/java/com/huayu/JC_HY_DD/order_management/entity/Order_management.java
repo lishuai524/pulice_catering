@@ -14,6 +14,8 @@ public class Order_management implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private int id;
+
     private String order_reference;
 
     private Integer ldid;
@@ -130,6 +132,14 @@ public class Order_management implements Serializable {
 
     public void setRemark(String remark) {
         this.remark = remark;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override

@@ -6,6 +6,8 @@ import com.huayu.JC_HY_DD.take_out.mapper.Take_outMapper;
 import com.huayu.JC_HY_DD.take_out.service.ITake_outService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -16,5 +18,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Take_outServiceImpl extends ServiceImpl<Take_outMapper, Take_out> implements ITake_outService {
+    public List<Take_out> queryAll(Take_out takeOut){
+       return baseMapper.queryAll(takeOut);
+    }
 
 }

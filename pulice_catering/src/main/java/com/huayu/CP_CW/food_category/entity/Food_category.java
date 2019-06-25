@@ -1,8 +1,5 @@
 package com.huayu.CP_CW.food_category.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-
 import java.io.Serializable;
 
 /**
@@ -17,7 +14,6 @@ public class Food_category implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "fcid", type = IdType.AUTO)
     private Integer fcid;
 
     private String name;
