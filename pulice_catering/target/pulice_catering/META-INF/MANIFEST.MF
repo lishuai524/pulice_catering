@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: 李敏捷
+=======
+Built-By: Administrator
+>>>>>>> 4b50d8c75d228242cc4918b702cbc191f12d623e
 Created-By: IntelliJ IDEA
-Build-Jdk: 1.8.0_131
+Build-Jdk: 1.8
 

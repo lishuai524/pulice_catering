@@ -11,7 +11,11 @@
     <!--批量起别名-->
     <typeAliases>
         <!--指定到包名，mybatis自动扫面包中的类，别名就是类名-->
+<<<<<<< HEAD
         <package name="com.huayu.*.*"></package>
+=======
+        <package name="com.huayu.*.*.entity"></package>
+>>>>>>> 4b50d8c75d228242cc4918b702cbc191f12d623e
     </typeAliases>
     <!--配置分页插件拦截器-->
     <plugins>

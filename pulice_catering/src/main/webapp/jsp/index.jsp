@@ -124,8 +124,8 @@
                 <dd><a onClick="x_admin_show('门店初始化','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>门店初始化</a></dd>
                 <dd><a onClick="x_admin_show('总店管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>总店管理</a></dd>
                 <dd><a onClick="x_admin_show('门店管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>门店管理</a></dd>
-                <dd><a onClick="x_admin_show('员工管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>员工管理</a></dd>
-                <dd><a onClick="x_admin_show('权限管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>权限管理</a></dd>
+                <dd><a onClick="x_admin_show('员工管理','/jsp/XT/staffs.jsp')"><i class="iconfont">&#xe6a8;</i>员工管理</a></dd>
+                <dd><a onClick="x_admin_show('权限管理','/jsp/XT/role_management.jsp')"><i class="iconfont">&#xe6a8;</i>权限管理</a></dd>
             </dl>
         </li>
 
