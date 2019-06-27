@@ -1,8 +1,5 @@
 package com.huayu.JC_HY_DD.personal_information.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-
 import java.io.Serializable;
 
 /**
@@ -17,7 +14,6 @@ public class Personal_information implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "piid", type = IdType.AUTO)
     private Integer piid;
 
     private String company;

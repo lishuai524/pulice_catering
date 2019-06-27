@@ -1,5 +1,8 @@
 package com.huayu.JC_HY_DD.stores_information.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
 
 /**
@@ -14,6 +17,7 @@ public class Stores_information implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @TableId(value = "id", type = IdType.AUTO)
     private int id;
 
     private String shop_name;
@@ -22,7 +26,9 @@ public class Stores_information implements Serializable {
 
     private String manager;
 
-    private String business_hours;
+    private String business_min;
+
+    private String business_max;
 
     private String phone;
 
@@ -65,13 +71,22 @@ public class Stores_information implements Serializable {
         this.manager = manager;
     }
 
-    public String getBusiness_hours() {
-        return business_hours;
+    public String getBusiness_min() {
+        return business_min;
     }
 
-    public void setBusiness_hours(String business_hours) {
-        this.business_hours = business_hours;
+    public void setBusiness_min(String business_min) {
+        this.business_min = business_min;
     }
+
+    public String getBusiness_max() {
+        return business_max;
+    }
+
+    public void setBusiness_max(String business_max) {
+        this.business_max = business_max;
+    }
+
     public String getPhone() {
         return phone;
     }
@@ -113,16 +128,17 @@ public class Stores_information implements Serializable {
     @Override
     public String toString() {
         return "Stores_information{" +
-        "sid=" + id +
-        ", shop_name=" + shop_name +
-        ", picture=" + picture +
-        ", manager=" + manager +
-        ", business_hours=" + business_hours +
-        ", phone=" + phone +
-        ", email=" + email +
-        ", shop_site=" + shop_site +
-        ", QR_code=" + ewmcode +
-        ", update_data=" + update_data +
-        "}";
+                "id=" + id +
+                ", shop_name='" + shop_name + '\'' +
+                ", picture='" + picture + '\'' +
+                ", manager='" + manager + '\'' +
+                ", business_min='" + business_min + '\'' +
+                ", business_max='" + business_max + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", shop_site='" + shop_site + '\'' +
+                ", ewmcode='" + ewmcode + '\'' +
+                ", update_data='" + update_data + '\'' +
+                '}';
     }
 }

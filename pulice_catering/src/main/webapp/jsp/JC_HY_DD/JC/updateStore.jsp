@@ -20,9 +20,9 @@ To change this template use File | Settings | File Templates.
 <body>
 </blockquote>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
-    <legend>桌台信息添加</legend>
+    <legend>信息修改</legend>
 </fieldset>
-<form class="layui-form layui-form-pane" action="/stores_information/stores-information/update.do" enctype="multipart/form-data"  method="post">
+<form class="layui-form layui-form-pane" action="/stores_information/stores-information/update.do" enctype="multipart/form-data" method="post">
     <input type="hidden" name="id" value="${sto.id}">
     <input type="hidden" name="ewmcode" value="${sto.ewmcode}">
     <input type="hidden" name="update_data" value="${sto.update_data}">
@@ -37,9 +37,8 @@ To change this template use File | Settings | File Templates.
         <label class="layui-form-label">展示图片</label>
         <div class="layui-input-inline">
             <img src="${sto.picture}" width="50px" height="50px">
-            <input type="file" name="filename" lay-verify="required"  >
+            <input type="file" name="filename1" lay-verify="required"  >
         </div>
-        <div class="layui-form-mid layui-word-aux">请选择图片否则默认修改为空</div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">门店经理</label>
@@ -52,11 +51,12 @@ To change this template use File | Settings | File Templates.
         <div class="layui-inline">
             <label class="layui-form-label">营业时间</label>
             <div class="layui-input-inline" style="width: 100px;">
-                <input type="text" name="business_hours" value="${str1}" id="date1" placeholder="营业" autocomplete="off" class="layui-input">
+                <input type="hidden" id="bus" name="business_hours">
+                <input type="text" name="business_min"  value="${sto.business_min}" id="date1" placeholder="营业" autocomplete="off" class="layui-input">
             </div>
             <div class="layui-form-mid">-</div>
             <div class="layui-input-inline" style="width: 100px;">
-                <input type="text" name="business_max" value="${str2}" id="date" placeholder="下班" autocomplete="off" class="layui-input">
+                <input type="text" name="business_max" value="${sto.business_max}" id="date" placeholder="下班" autocomplete="off" class="layui-input">
             </div>
         </div>
     </div>
@@ -117,7 +117,7 @@ To change this template use File | Settings | File Templates.
         var editIndex = layedit.build('LAY_demo_editor');
         //监听提交
         form.on('submit(demo2)', function(data){
-            layer.msg("添加成功",5000)
+            return false;
         });
 
 

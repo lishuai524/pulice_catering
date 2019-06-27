@@ -55,7 +55,7 @@ To change this template use File | Settings | File Templates.
     <div class="layui-form-item">
         <label class="layui-form-label">资产数量</label>
         <div class="layui-input-inline">
-            <input type="text" name="margin" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input" >
+            <input type="text" name="margin" lay-verify="required|number" placeholder="请输入" autocomplete="off" class="layui-input" >
         </div>
     </div>
 
@@ -77,7 +77,7 @@ To change this template use File | Settings | File Templates.
     <div class="layui-form-item">
         <label class="layui-form-label">单价</label>
         <div class="layui-input-inline">
-            <input type="text" name="unit_price" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input" >
+            <input type="text" name="unit_price" lay-verify="required|number" placeholder="请输入" autocomplete="off" class="layui-input" >
         </div>
     </div>
 

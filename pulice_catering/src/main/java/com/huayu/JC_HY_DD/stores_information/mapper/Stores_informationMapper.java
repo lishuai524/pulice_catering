@@ -22,4 +22,10 @@ public interface Stores_informationMapper extends BaseMapper<Stores_information>
 
     @Select("select * from stores_information where id=#{value}")
     public Stores_information toupdate(int id);
+
+    @Select("select picture from stores_information where id=#{value}")
+    public String queryBytp(int id);
+
+    @Select("update stores_information set picture=#{picture},manager=#{manager},business_hours=#{business_hours},phone=#{phone},email=#{email},shop_site=#{shop_site},update_data=#{update_data}  where id=#{id}")
+    public int update(Stores_information storesInformation);
 }

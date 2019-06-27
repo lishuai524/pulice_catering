@@ -1,5 +1,7 @@
 package com.huayu.JC_HY_DD.personal_information.controller;
 
+import com.huayu.JC_HY_DD.personal_information.service.impl.Personal_informationServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -14,5 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/personal_information/personal-information")
 public class Personal_informationController {
+    @Autowired
+    private Personal_informationServiceImpl informationService;
+
 
 }

@@ -20,7 +20,7 @@ To change this template use File | Settings | File Templates.
 <body>
 </blockquote>
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
-    <legend>信息添加</legend>
+    <legend>信息修改</legend>
 </fieldset>
 <form class="layui-form layui-form-pane" action="/dayinji/dayinji/update.do"  method="post">
     <input type="hidden" name="id" value="${dayin.id}">

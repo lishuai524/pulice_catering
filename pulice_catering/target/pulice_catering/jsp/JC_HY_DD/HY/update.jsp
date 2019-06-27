@@ -27,7 +27,7 @@
         <label class="layui-form-label">选择头像</label>
         <div class="layui-input-inline">
             <img src="${member.head_portrait}" width="50px" height="50px">
-            <input type="file" name="filename" lay-verify="required">
+            <input type="file" name="filename" lay-verify="required" >
         </div>
     </div>
     <div class="layui-form-item">

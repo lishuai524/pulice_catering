@@ -63,8 +63,8 @@ public class Member_managementController {
         String e = request.getSession().getServletContext().getRealPath("");
         e = e.substring(0,e.indexOf("target"))+"src\\main\\webapp\\img\\";
         String oriName = pictureFile.getOriginalFilename();
-        String extName = oriName.substring(oriName.lastIndexOf("."));
-        File file = new File(e+oriName);
+        File file =
+                new File(e+oriName);
         if(!file.exists()){
             pictureFile.transferTo(new File(e + oriName));
         }
@@ -84,15 +84,21 @@ public class Member_managementController {
 
     @RequestMapping("/update.do")
     public String update(@RequestParam("filename") MultipartFile pictureFile,Member_management management) throws IOException {
-        String e = request.getSession().getServletContext().getRealPath("");
-        e = e.substring(0,e.indexOf("target"))+"src\\main\\webapp\\img\\";
-        String oriName = pictureFile.getOriginalFilename();
-        String extName = oriName.substring(oriName.lastIndexOf("."));
-        File file = new File(e+oriName);
-        if(!file.exists()){
-            pictureFile.transferTo(new File(e + oriName));
+        String str ="";
+
+        if(pictureFile.isEmpty()){
+            String tpurl = managementService.queryBytp(management.getId());
+            str=tpurl;
+        }else {
+            String e = request.getSession().getServletContext().getRealPath("");
+            e = e.substring(0, e.indexOf("target")) + "src\\main\\webapp\\img\\";
+            String oriName = pictureFile.getOriginalFilename();
+            File file = new File(e + oriName);
+            if (!file.exists()) {
+                pictureFile.transferTo(new File(e + oriName));
+            }
+            str = "/img/" + oriName;
         }
-        String str = "/img/"+oriName;
         management.setHead_portrait(str);
         managementService.updateById(management);
         return "JC_HY_DD/HY/vip.jsp";

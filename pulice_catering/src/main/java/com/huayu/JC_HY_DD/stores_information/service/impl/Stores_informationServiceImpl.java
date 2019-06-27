@@ -25,5 +25,11 @@ public class Stores_informationServiceImpl extends ServiceImpl<Stores_informatio
     public Stores_information toupdate(int id){
         return baseMapper.toupdate(id);
     }
+    public int update(Stores_information storesInformation){
+        return baseMapper.update(storesInformation);
+    }
+    public String queryBytp(int id){
+        return baseMapper.queryBytp(id);
+    }
 
 }

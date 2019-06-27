@@ -83,7 +83,10 @@
                     {field:'shop_name', width:'8%', title: '<font size="2px">门店名称<font>'}
                     ,{field:'picture', width:'8%', title: '<font size="2px">展示图片<font>',templet: '#img'}
                     ,{field:'manager', width:'7%', title: '<font size="2px">门店经理<font>'}
-                    ,{field:'business_hours', width:'13%', title: '<font size="2px">营业时间</font>'}
+                    ,{field:'business_min', width:'13%', title: '<font size="2px">营业时间</font>'
+                    ,templet: function(d){
+                        return d.business_min+'-'+d.business_max
+                    }}
                     ,{field:'phone', width:'10%', title: '<font size="2px">联系电话<font>'}
                     ,{field:'email', width:'12%', title: '<font size="2px">电子邮箱<font>'}
                     ,{field:'shop_site', width:'10%', title: '<font size="2px">门店地址<font>'}

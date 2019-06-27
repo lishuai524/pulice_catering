@@ -23,4 +23,7 @@ public class Member_managementServiceImpl extends ServiceImpl<Member_managementM
     public List<Member_management> queryAll(Member_management management) {
         return baseMapper.queryAll(management);
     }
+    public String queryBytp(int id) {
+        return baseMapper.queryBytp(id);
+    }
 }

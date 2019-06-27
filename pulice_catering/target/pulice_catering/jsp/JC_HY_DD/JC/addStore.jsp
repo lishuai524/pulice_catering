@@ -22,7 +22,7 @@ To change this template use File | Settings | File Templates.
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
     <legend>桌台信息添加</legend>
 </fieldset>
-<form class="layui-form layui-form-pane" action="/stores_information/stores-information/add.do" enctype="multipart/form-data"  method="post">
+<form class="layui-form layui-form-pane" action="/stores_information/stores-information/add.do" enctype="multipart/form-data" method="post">
     <div class="layui-form-item">
         <label class="layui-form-label">门店名称</label>
         <div class="layui-input-inline">
@@ -47,11 +47,11 @@ To change this template use File | Settings | File Templates.
         <div class="layui-inline">
             <label class="layui-form-label">营业时间</label>
             <div class="layui-input-inline" style="width: 100px;">
-                <input type="text" name="business_hours" id="date1" placeholder="营业" autocomplete="off" class="layui-input">
+                <input type="text" name="business_min" id="date1" lay-verify="required" placeholder="营业" autocomplete="off" class="layui-input">
             </div>
             <div class="layui-form-mid">-</div>
             <div class="layui-input-inline" style="width: 100px;">
-                <input type="text" name="business_max" id="date" placeholder="下班" autocomplete="off" class="layui-input">
+                <input type="text" name="business_max" id="date" lay-verify="required" placeholder="下班" autocomplete="off" class="layui-input">
             </div>
         </div>
     </div>
@@ -61,14 +61,14 @@ To change this template use File | Settings | File Templates.
         <div class="layui-inline">
             <label class="layui-form-label">联系电话</label>
             <div class="layui-input-block">
-                <input type="text" name="phone" autocomplete="off" class="layui-input">
+                <input type="text" name="phone" lay-verify="required|phone|number" autocomplete="off" class="layui-input">
             </div>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">电子邮箱</label>
         <div class="layui-input-inline">
-            <input type="text" name="email" autocomplete="off" class="layui-input">
+            <input type="text" name="email" lay-verify="required|email" autocomplete="off" class="layui-input">
         </div>
     </div>
 
@@ -103,6 +103,15 @@ To change this template use File | Settings | File Templates.
             elem: '#date1'
             ,type:'time'
         });
+
+            //自定义验证规则
+            form.verify({
+                email: function(value, item){ //value：表单的值、item：表单的DOM对象
+                    if(!new RegExp("^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$").test(value)){
+                        return '邮箱格式不正确';
+                    }
+                }
+            });
 
         //创建一个编辑器
         var editIndex = layedit.build('LAY_demo_editor');

@@ -170,8 +170,8 @@
                     <i class="iconfont nav_right">&#xe6a7;</i>
                 </a>
                 <ul class="sub-menu">
-                    <li><a _href="html/unicode.html"><i class="iconfont">&#xe6a7;</i><cite>个人信息</cite></a></li>
-                    <li><a _href="html/form1.html"><i class="iconfont">&#xe6a7;</i><cite>修改密码</cite></a></li>
+                    <li><a _href="/staffs/staffs/queryByid.do"><i class="iconfont">&#xe6a7;</i><cite>个人信息</cite></a></li>
+                    <li><a _href="/jsp/JC_HY_DD/JC/updatePwd.jsp"><i class="iconfont">&#xe6a7;</i><cite>修改密码</cite></a></li>
                 </ul>
             </li>
 
@@ -298,7 +298,7 @@
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
                 <%--<iframe src='/jsp/JC_HY_DD/shop.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>--%>
-                <img src="/img/a5628e71-464e-421d-b516-cd96d5f58f5f_0.png" width="100%" height="100%">
+                <img src="/img/xqw.png" width="100%" height="100%">
             </div>
         </div>
     </div>
