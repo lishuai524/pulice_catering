@@ -66,24 +66,22 @@
         <li class="layui-nav-item">
             <a href="javascript:;">菜品管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                <dd><a onClick="x_admin_show('菜单管理','/jsp/CP_CW/Menu management.jsp')"><i class="iconfont">&#xe6a2;</i>菜单管理</a></dd>
-                <dd><a onClick="x_admin_show('菜品类别','/jsp/CP_CW/Food category.jsp')"><i class="iconfont">&#xe6a8;</i>菜品类别</a></dd>
-                <dd><a onClick="x_admin_show('全部菜品','/jsp/CP_CW/All dishes.jsp')"><i class="iconfont">&#xe6b8;</i>全部菜品</a></dd>
-                <dd><a onClick="x_admin_show('特色菜','/jsp/CP_CW/Special dish.jsp')"><i class="iconfont">&#xe6b8;</i>特色菜</a></dd>
+                <dd><a onClick="x_admin_show('菜单管理','/jsp/caipingMG/caidanlist.jsp')"><i class="iconfont">&#xe6a2;</i>菜单管理</a></dd>
+                <dd><a onClick="x_admin_show('菜品类别','/jsp/caipingMG/caipingtypelist.jsp')"><i class="iconfont">&#xe6a8;</i>菜品类别</a></dd>
+                <dd><a onClick="x_admin_show('全部菜品','/jsp/caipingMG/caipinglist.jsp')"><i class="iconfont">&#xe6b8;</i>全部菜品</a></dd>
             </dl>
         </li>
 
         <li class="layui-nav-item">
             <a href="javascript:;">财务管理</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                <dd><a onClick="x_admin_show('单据管理','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>单据管理</a></dd>
-                <dd><a onClick="x_admin_show('交接管理','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>交接管理</a></dd>
-                <dd><a onClick="x_admin_show('关账管理','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>关账管理</a></dd>
-                <dd><a onClick="x_admin_show('优惠卷','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>优惠卷</a></dd>
-                <dd><a onClick="x_admin_show('促销方案','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>促销方案</a></dd>
-                <dd><a onClick="x_admin_show('营业额外收入','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>营业额外收入</a></dd>
-                <dd><a onClick="x_admin_show('营业额外支出','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>营业额外支出</a></dd>
-                <dd><a onClick="x_admin_show('充值管理','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>充值管理</a></dd>
+                <dd><a onClick="x_admin_show('单据管理','/jsp/financeMG/Document management.jsp')"><i class="iconfont">&#xe6a2;</i>单据管理</a></dd>
+                <dd><a onClick="x_admin_show('交接管理','/jsp/financeMG/Handover management.jsp')"><i class="iconfont">&#xe6a8;</i>交接管理</a></dd>
+                <dd><a onClick="x_admin_show('优惠卷','/jsp/financeMG/Coupon.jsp')"><i class="iconfont">&#xe6b8;</i>优惠卷</a></dd>
+                <dd><a onClick="x_admin_show('促销方案','/jsp/financeMG/Promotion scheme.jsp')"><i class="iconfont">&#xe6b8;</i>促销方案</a></dd>
+                <dd><a onClick="x_admin_show('营业额外收入','/jsp/financeMG/Income.jsp')"><i class="iconfont">&#xe6b8;</i>营业额外收入</a></dd>
+                <dd><a onClick="x_admin_show('营业额外支出','/jsp/financeMG/Expenditure.jsp')"><i class="iconfont">&#xe6b8;</i>营业额外支出</a></dd>
+                <dd><a onClick="x_admin_show('充值管理','/jsp/financeMG/top-ups.jsp')"><i class="iconfont">&#xe6b8;</i>充值管理</a></dd>
             </dl>
         </li>
 
