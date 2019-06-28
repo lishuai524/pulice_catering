@@ -7,14 +7,14 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/layui/lib/layui1/css/layui.css"  media="all">
+    <link rel="stylesheet" href="/layui/lib/layui1/css/layui.css" media="all">
     <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
 </head>
 <body>
 <div class="layui-form-item"></div>
 <span span class="layui-breadcrumb" lay-separator="|">
-    <a href="/jsp/XT/role_management.jsp">角色列表</a>
-    <a href="/jsp/XT/role_management_fenpei.jsp">角色分配</a>
+    <a href="/doc/XT/role_management.jsp">角色列表</a>
+    <a href="/doc/XT/role_management_fenpei.jsp">角色分配</a>
 </span>
 <div class="layui-form-item"></div>
 
@@ -52,8 +52,8 @@
         </div>
     </div>
 </div>
-
 <table class="layui-hide" id="test" lay-filter="test"></table>
+
 
 <script type="text/html" id="toolbarDemo">
     <div class="layui-btn-container">

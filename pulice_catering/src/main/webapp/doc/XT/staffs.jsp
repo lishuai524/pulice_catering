@@ -22,7 +22,7 @@
     <div class="layui-col-md9">
         <div class="layui-form-item"></div>
             <span class="layui-breadcrumb" lay-separator="|">
-                <a href="/jsp/XT/staffs.jsp">员工列表</a>
+                <a href="/doc/XT/staffs.jsp">员工列表</a>
                 <a href="/staffs/staffs/toInsert_staffs.do">员工添加</a>
             </span>
         <div class="layui-form-item"></div>

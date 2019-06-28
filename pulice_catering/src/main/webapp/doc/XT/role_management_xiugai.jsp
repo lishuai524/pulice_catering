@@ -8,7 +8,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/layui/lib/layui1/css/layui.css"  media="all">
+    <link rel="stylesheet" href="/layui/lib/layui1/css/layui.css" media="all">
     <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
 </head>
 <body>
@@ -16,31 +16,32 @@
 
 <div class="layui-form-item"></div>
 <span class="layui-breadcrumb" lay-separator="|">
-        <a href="/jsp/XT/role_management.jsp">角色列表</a>
-        <a href="/jsp/XT/role_management_tianjia.jsp">角色添加</a>
+        <a href="/doc/XT/role_management.jsp">角色列表</a>
+        <a href="/doc/XT/role_management_tianjia.jsp">角色添加</a>
     </span>
 <div class="layui-form-item"></div>
 
 <form class="layui-form" onsubmit="return false">
+    <input type="hidden" id="id" value="${role.id}">
     <div class="layui-form-item">
         <label class="layui-form-label">角色名称</label>
         <div class="layui-input-inline">
-            <input type="text" name="name" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+            <input type="text" name="name" id="name" value="${role.name}" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">英文名称</label>
         <div class="layui-input-inline">
-            <input type="text" name="english" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+            <input type="text" name="english" value="${role.english}" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">归属机构</label>
         <div class="layui-input-inline">
             <select name="department">
-                <option value="平台管理员" selected="">平台管理员</option>
-                <option value="总店人员">总店人员</option>
-                <option value="门店人员">门店人员</option>
+                <option value="平台管理员" ${role.department == '平台管理员' ? "selected":'' }>平台管理员</option>
+                <option value="总店人员" ${role.department == '总店人员' ? "selected":'' }>总店人员</option>
+                <option value="门店人员" ${role.department == '门店人员' ? "selected":'' }>门店人员</option>
             </select>
         </div>
     </div>
@@ -48,35 +49,35 @@
         <label class="layui-form-label">角色类型</label>
         <div class="layui-input-inline">
             <select name="role">
-                <option value="管理角色" selected="">管理角色</option>
-                <option value="普通角色">普通角色</option>
+                <option value="管理角色" ${role.role == '管理角色' ? "selected":'' }>管理角色</option>
+                <option value="普通角色" ${role.role == '普通角色' ? "selected":'' }>普通角色</option>
             </select>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">是否系统</label>
         <div class="layui-input-block">
-            <input type="radio" name="system" value="是" title="是" checked="">
-            <input type="radio" name="system" value="否" title="否">
+            <input type="radio" name="system" value="是" title="是" ${role.system == '是' ? "checked":'' }>
+            <input type="radio" name="system" value="否" title="否" ${role.system == '否' ? "checked":'' }>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">是否可用</label>
         <div class="layui-input-block">
-            <input type="radio" name="usable" value="是" title="是" checked="">
-            <input type="radio" name="usable" value="否" title="否">
+            <input type="radio" name="usable" value="是" title="是" ${role.usable == '是' ? "checked":'' }>
+            <input type="radio" name="usable" value="否" title="否" ${role.usable == '否' ? "checked":'' }>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">数据范围</label>
         <div class="layui-input-inline">
             <select name="scope">
-                <option value="所有数据">所有数据</option>
-                <option value="所在公司及以下数据">所在公司及以下数据</option>
-                <option value="所在公司数据">所在公司数据</option>
-                <option value="所在部门及以下数据">所在部门及以下数据</option>
-                <option value="所在部门数据">所在部门数据</option>
-                <option value="仅本人数据" selected="">仅本人数据</option>
+                <option value="所有数据" ${role.scope == '所有数据' ? "selected":'' }>所有数据</option>
+                <option value="所在公司及以下数据" ${role.scope == '所在公司及以下数据' ? "selected":'' }>所在公司及以下数据</option>
+                <option value="所在公司数据" ${role.scope == '所在公司数据' ? "selected":'' }>所在公司数据</option>
+                <option value="所在部门及以下数据" ${role.scope == '所在部门及以下数据' ? "selected":'' }>所在部门及以下数据</option>
+                <option value="所在部门数据" ${role.scope == '所在部门数据' ? "selected":'' }>所在部门数据</option>
+                <option value="仅本人数据" ${role.scope == '仅本人数据' ? "selected":'' }>仅本人数据</option>
             </select>
         </div>
     </div>
@@ -90,7 +91,7 @@
     <div class="layui-form-item layui-form-text">
         <label class="layui-form-label">文本域</label>
         <div class="layui-input-block">
-            <textarea name="remark" placeholder="请输入内容" class="layui-textarea"></textarea>
+            <textarea name="remark" placeholder="请输入内容" class="layui-textarea">${role.remark}</textarea>
         </div>
     </div>
     <div class="layui-form-item">
@@ -340,6 +341,14 @@
             }*/
         });
 
+        $.ajax({
+            url: '/role/role/toUpdateToo.do?name='+$("#name").val(),
+            type: 'post',
+            success: function(ret){
+                tree.setChecked('demoId1',ret);
+            },
+        });
+
         //监听提交
         form.on('submit(demo1)', function(data){
             var dataForm=JSON.stringify(data.field);
@@ -365,8 +374,6 @@
                                 success: function(ret1){
                                     if(ret1){
                                         layer.msg("添加成功");
-                                    }else {
-                                        layer.msg("添加失败");
                                     }
                                 },
                             });
@@ -374,6 +381,7 @@
                     }
                 },
             });
+            return false;
         });
     });
 
