@@ -57,4 +57,15 @@
         </property>
     </bean>
 
+    <!--拦截器-->
+    <mvc:interceptors>
+        <!--拦截所有资源-->
+        <!--<bean class="com.huayu.JC_HY_DD.login.FirstInterceptor"></bean>-->
+        <!--拦截指定的资源,当访问路径为“/xxx”时，才会被该拦截器拦截-->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.huayu.JC_HY_DD.login.FirstInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>

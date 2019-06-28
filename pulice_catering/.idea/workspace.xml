@@ -21,10 +21,10 @@
     <session id="1330335118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.31" value="3" />
           <entry key="project.open.time.32" value="1" />
@@ -36,27 +36,27 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="5" />
           <entry key="class" value="26" />
           <entry key="css" value="3" />
           <entry key="ftl" value="1" />
           <entry key="gif" value="10" />
           <entry key="html" value="5" />
           <entry key="ico" value="1" />
-          <entry key="java" value="615" />
+          <entry key="java" value="621" />
           <entry key="jpeg" value="21" />
-          <entry key="jpg" value="12" />
+          <entry key="jpg" value="13" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="367" />
+          <entry key="jsp" value="368" />
           <entry key="png" value="4" />
           <entry key="rej" value="1" />
           <entry key="rnc" value="2" />
-          <entry key="xml" value="46" />
+          <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -65,47 +65,79 @@
           <entry key="CSS" value="3" />
           <entry key="FTL" value="1" />
           <entry key="HTML" value="5" />
-          <entry key="Image" value="48" />
-          <entry key="JAVA" value="615" />
-          <entry key="JSP" value="367" />
+          <entry key="Image" value="49" />
+          <entry key="JAVA" value="621" />
+          <entry key="JSP" value="368" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="5" />
           <entry key="RNG Compact" value="2" />
-          <entry key="XML" value="46" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="111" />
           <entry key="html" value="681" />
-          <entry key="java" value="8839" />
+          <entry key="java" value="9124" />
           <entry key="jsp" value="7001" />
-          <entry key="xml" value="137" />
+          <entry key="xml" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="678" />
-          <entry key="JAVA" value="8839" />
+          <entry key="JAVA" value="9124" />
           <entry key="JSP" value="6948" />
           <entry key="PLAIN_TEXT" value="111" />
           <entry key="SQL" value="54" />
           <entry key="ThymeleafExpressions" value="2" />
-          <entry key="XML" value="137" />
+          <entry key="XML" value="167" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2506">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="288">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="22" column="24" selection-end-line="67" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1325">
+              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1825">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#4275#4276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,9 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/sql/proSql.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/Asset_informationMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/entity/Asset_information.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/entity/Property.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/PropertyMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Asset_informationController.java" />
@@ -166,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/login.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis_config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/entity/Personal_information.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/controller/Personal_informationController.java" />
@@ -197,12 +225,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/vip.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/mapper/Member_managementMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/service/impl/Member_managementServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/service/impl/StaffsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/controller/StaffsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/mapper/StaffsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/login.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java" />
       </list>
     </option>
   </component>
@@ -246,10 +278,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="175" />
+    <option name="width" value="1750" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,7 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +361,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huayu" type="462c0819:PsiDirectoryNode" />
               <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_information" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +371,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huayu" type="462c0819:PsiDirectoryNode" />
               <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_information" type="462c0819:PsiDirectoryNode" />
+              <item name="stores_information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pulice_catering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huayu" type="462c0819:PsiDirectoryNode" />
+              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
+              <item name="stores_information" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,19 +415,40 @@
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pulice_catering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
+              <item name="JC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pulice_catering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
+              <item name="JC" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561605619375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561685840946" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="E:/idea/SH_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -500,17 +563,19 @@
       <workItem from="1561551388758" duration="4346000" />
       <workItem from="1561596477941" duration="235000" />
       <workItem from="1561597182550" duration="5802000" />
+      <workItem from="1561607666945" duration="9617000" />
+      <workItem from="1561683685397" duration="835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338114000" />
+    <option name="totallyTimeSpent" value="348746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.23994638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.24664879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,8 +584,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50078493" side_tool="true" weight="0.19101876" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.15782122" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49396783" visible="true" weight="0.16480447" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.15642458" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49396783" visible="true" weight="0.24022347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.73463684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +593,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50603217" side_tool="true" visible="true" weight="0.16480447" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50603217" side_tool="true" weight="0.16480447" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49798927" weight="0.2849162" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -555,59 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updatepaidui.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updatePwd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateQueue.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateTables.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateTangKou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/addreserve.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/bill.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateBill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateTake.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225" />
@@ -675,9 +687,6 @@
           <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis_config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,10 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,9 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/a5628e71-464e-421d-b516-cd96d5f58f5f_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/a5628e71-464e-421d-b516-cd96d5f58f5f_0.png" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -781,10 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="124" column="102" selection-start-line="124" selection-start-column="89" selection-end-line="124" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addStore.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -862,16 +854,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java.rej">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java.rej" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/controller/Personal_informationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,13 +869,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/queue/controller/QueueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.Properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis_config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2506">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="81">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/queue/entity/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="158" selection-start-line="158" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/timg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="24" selection-end-line="67" selection-end-column="7" />
         </state>
       </provider>
     </entry>
