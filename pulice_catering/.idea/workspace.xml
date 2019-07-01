@@ -21,124 +21,145 @@
     <session id="1330335118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.31" value="3" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.37" value="4" />
           <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="6" />
           <entry key="class" value="26" />
-          <entry key="css" value="3" />
+          <entry key="css" value="7" />
           <entry key="ftl" value="1" />
           <entry key="gif" value="10" />
-          <entry key="html" value="5" />
+          <entry key="html" value="7" />
           <entry key="ico" value="1" />
-          <entry key="java" value="621" />
+          <entry key="java" value="631" />
           <entry key="jpeg" value="21" />
           <entry key="jpg" value="13" />
-          <entry key="js" value="1" />
-          <entry key="jsp" value="368" />
-          <entry key="png" value="4" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="453" />
+          <entry key="otf" value="1" />
+          <entry key="png" value="7" />
           <entry key="rej" value="1" />
           <entry key="rnc" value="2" />
-          <entry key="xml" value="51" />
+          <entry key="svg" value="1" />
+          <entry key="ttf" value="1" />
+          <entry key="xml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="26" />
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="7" />
           <entry key="FTL" value="1" />
-          <entry key="HTML" value="5" />
-          <entry key="Image" value="49" />
-          <entry key="JAVA" value="621" />
-          <entry key="JSP" value="368" />
-          <entry key="JavaScript" value="1" />
+          <entry key="Font" value="2" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="52" />
+          <entry key="JAVA" value="631" />
+          <entry key="JSP" value="453" />
+          <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="6" />
           <entry key="RNG Compact" value="2" />
-          <entry key="XML" value="51" />
+          <entry key="SVG" value="1" />
+          <entry key="XML" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="4" />
           <entry key="dummy" value="111" />
-          <entry key="html" value="681" />
-          <entry key="java" value="9124" />
-          <entry key="jsp" value="7001" />
+          <entry key="html" value="682" />
+          <entry key="java" value="9126" />
+          <entry key="jsp" value="7171" />
           <entry key="xml" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="678" />
-          <entry key="JAVA" value="9124" />
-          <entry key="JSP" value="6948" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="679" />
+          <entry key="JAVA" value="9126" />
+          <entry key="JSP" value="7116" />
           <entry key="PLAIN_TEXT" value="111" />
-          <entry key="SQL" value="54" />
+          <entry key="SQL" value="56" />
           <entry key="ThymeleafExpressions" value="2" />
           <entry key="XML" value="167" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pulice_catering" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/Index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="33" column="61" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="-100">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/reserve.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+            <state relative-caret-position="91">
+              <caret line="176" column="72" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4218#4219#0" expanded="true" />
-                <element signature="e#4275#4276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="78">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Asset_informationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -176,6 +197,7 @@
       <find>request</find>
       <find>layui-tab-title</find>
       <find>layui-this</find>
+      <find>会员充值</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,35 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/entity/Property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/PropertyMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Asset_informationController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/property.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/addreserve.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateBill.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateTake.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateres.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/entity/Personal_information.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/controller/Personal_informationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/mapper/Personal_informationMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/mapper/Personal_informationMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/service/impl/Personal_informationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/entity/Staffs.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updatePwd.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/update.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/addvip.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/person.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addproperty.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addQueue.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addTables.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addTangKou.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addpaidui.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateDayinji.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updatepaidui.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateQueue.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateTables.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateTangKou.jsp" />
@@ -225,16 +218,45 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/vip.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/mapper/Member_managementMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/service/impl/Member_managementServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/service/impl/StaffsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/controller/StaffsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/mapper/StaffsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/login.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/DianCan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/JieSuan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/Pay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/PaySelect.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq-wfk.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq-yfk.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/DianCanDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/DianCanPay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/WaiMaiDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/NOAddress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/DianCan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/yhj/CouPon.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/AddAddress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/DianCan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/JieSuan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/JieSuan.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/Pay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/Pay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/paidui/paidui.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/AddressList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/paidui/tjdd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/Index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/order/AddOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Asset_informationController.java" />
       </list>
     </option>
   </component>
@@ -278,7 +300,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="175" />
     <option name="width" value="1750" />
     <option name="height" value="985" />
@@ -361,7 +383,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huayu" type="462c0819:PsiDirectoryNode" />
               <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="asset_information" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
@@ -371,17 +393,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huayu" type="462c0819:PsiDirectoryNode" />
               <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="stores_information" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pulice_catering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huayu" type="462c0819:PsiDirectoryNode" />
-              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="stores_information" type="462c0819:PsiDirectoryNode" />
+              <item name="asset_information" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -389,7 +401,11 @@
               <item name="pulice_catering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huayu" type="462c0819:PsiDirectoryNode" />
+              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
+              <item name="asset_information" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
@@ -422,8 +438,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="JC" type="462c0819:PsiDirectoryNode" />
+              <item name="XT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pulice_catering" type="b2602c69:ProjectViewProjectNode" />
@@ -431,10 +446,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="JC_HY_DD" type="462c0819:PsiDirectoryNode" />
-              <item name="JC" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +458,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561689698043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561970406531" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -454,18 +466,18 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4845996" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\项目\pulice_catering\src\main\webapp\img" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.huayu.JC_HY_DD.asset_information.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\项目\pulice_catering\src\main\webapp\img" />
-      <recent name="E:\项目\pulice_catering\src\main\java\com\huayu\JC_HY_DD\staffs" />
-      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\JC" />
-      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\DD" />
-      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\HY" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\common" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\gongzhonghao" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\gongzhonghao\order" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\gongzhonghao\yhj" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.huayu.JC_HY_DD.stores_information.sql" />
@@ -474,8 +486,12 @@
       <recent name="com.huayu.JC_HY_DD.queuing_management.entity" />
       <recent name="com.huayu.JC_HY_DD.tangkou_information.sql" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.huayu.JC_HY_DD.asset_information.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\项目\pulice_catering\src\main\webapp" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\项目\pulice_catering\src\main\webapp\jsp\JC_HY_DD\gongzhonghao\dianzan" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,28 +580,31 @@
       <workItem from="1561596477941" duration="235000" />
       <workItem from="1561597182550" duration="5802000" />
       <workItem from="1561607666945" duration="9617000" />
-      <workItem from="1561683685397" duration="3192000" />
+      <workItem from="1561683685397" duration="5016000" />
+      <workItem from="1561702904403" duration="3694000" />
+      <workItem from="1561941538893" duration="11891000" />
+      <workItem from="1561962569585" duration="425000" />
+      <workItem from="1561963225084" duration="5914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351103000" />
+    <option name="totallyTimeSpent" value="374851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.24664879" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.622549" visible="true" weight="0.15147454" />
+      <window_info id="Structure" order="1" sideWeight="0.37745097" side_tool="true" weight="0.14745308" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.16620111" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.50078493" side_tool="true" weight="0.19101876" />
+      <window_info id="Web" order="7" sideWeight="0.37745097" side_tool="true" weight="0.2533512" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15642458" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49396783" visible="true" weight="0.24022347" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49396783" visible="true" weight="0.27234638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.73463684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -620,334 +639,300 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/updateTake.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/Asset_informationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/PropertyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/dayinji/mapper/DayinjiMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/information_desk/mapper/Information_deskMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-extension/3.0-RELEASE/mybatis-plus-extension-3.0-RELEASE.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/information_desk/controller/Information_deskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/mapper/Personal_informationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/entity/Personal_information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/queue_state/entity/Queue_state.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="235" column="21" lean-forward="true" selection-start-line="235" selection-start-column="21" selection-end-line="235" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/queue.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="120" column="103" lean-forward="true" selection-start-line="120" selection-start-column="65" selection-end-line="120" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/entity/Stores_information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/service/impl/Stores_informationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1" column="17994" selection-start-line="1" selection-start-column="17994" selection-end-line="1" selection-end-column="17994" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateStore.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/mapper/Stores_informationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/vip.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/addvip.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/DD/take-out.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/JC/moban.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/JC/TangKou.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/HY/update.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/JC_HY_DD/JC/food_categorg.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/JC/property.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/JC/dayinji.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/updateDayinji.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13522">
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/service/impl/Member_managementServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/JC_HY_DD/DD/bill.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="-1300">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/entity/Member_management.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index_ico3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/swiper1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/suicai1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/DianCan.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="295">
+          <caret line="276" column="30" lean-forward="true" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/a5628e71-464e-421d-b516-cd96d5f58f5f_0.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/DianCan.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="300" column="38" selection-start-line="300" selection-start-column="38" selection-end-line="300" selection-end-column="38" />
+        <state relative-caret-position="-50">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/service/impl/StaffsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/JieSuan.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="334">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/waimai/Pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/JieSuan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/Pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/diancan/PaySelect.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq-wfk.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/ddxq-yfk.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/DianCanDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/DianCanPay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/dingdan/WaiMaiDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/paidui/paidui.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/NOAddress.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/AddressList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="87" column="57" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/paidui/tjdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/wd/AddAddress.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/controller/StaffsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="569">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/person.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/tangkou_information/controller/Tangkou_informationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/staffs/mapper/StaffsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/paidui.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addTangKou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addDayinji.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addpaidui.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addQueue.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addproperty.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/store.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="87" column="48" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/addStore.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="24" column="114" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java.rej" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/personal_information/controller/Personal_informationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/mapper/Member_managementMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/queue/controller/QueueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="169">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.Properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
+        <state relative-caret-position="75">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis_config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="125">
+          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/member_management/controller/Member_managementController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/order/AddOrder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="125">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/queue/entity/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="158" selection-start-line="158" selection-end-line="159" />
+        <state relative-caret-position="78">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="174" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/stores_information/controller/Stores_informationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/addreserve.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4218#4219#0" expanded="true" />
-            <element signature="e#4275#4276#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/DD/reserve.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="176" column="72" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/timg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/login/FirstInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/gongzhonghao/Index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="61" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="47" column="111" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/JC_HY_DD/JC/login/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="275">
+          <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/mapper/Asset_informationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/JC_HY_DD/asset_information/controller/Asset_informationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
