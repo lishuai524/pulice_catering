@@ -53,6 +53,14 @@ To change this template use File | Settings | File Templates.
             </div>
         </div>
     </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">预定时间</label>
+            <div class="layui-input-block">
+                <input type="text" name="scheduled_time" value="${res.scheduled_time}" id="date" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">状态</label>
@@ -98,6 +106,7 @@ To change this template use File | Settings | File Templates.
         //日期
         laydate.render({
             elem: '#date'
+            ,type:'datetime'
         });
         laydate.render({
             elem: '#date1'

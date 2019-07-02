@@ -274,7 +274,8 @@
 			<div class="page__bd weui-footer_fixed-bottom">
 				<div class="weui-flex">
 					<div class="footer_total col_8">
-						总计：¥18
+						(总计：¥
+						<span class="weui-count__number" id="sum" style="color:#E41310; padding: 0 5px;" >0</span>)
 					</div>
 					<div class="weui-flex__item">
 						<a href="/jsp/JC_HY_DD/gongzhonghao/diancan/JieSuan.jsp" class="weui-btn btn_blue btn_noradius">结算</a>
@@ -290,19 +291,48 @@
 	<script src="/common/swiper.min.js" type="text/javascript"></script>
 <script src="/common/main.js" type="text/javascript"></script>
 <script>
-	var MAX = 99, MIN = 1;
-	$('.weui-count__decrease').click(function (e) {
-		var $input = $(e.currentTarget).parent().find('.weui-count__number');
-		var number = parseInt($input.val() || "0") - 1
-		if (number < MIN) number = MIN;
-		$input.val(number)
-	})
-	$('.weui-count__increase').click(function (e) {
-		var $input = $(e.currentTarget).parent().find('.weui-count__number');
-		var number = parseInt($input.val() || "0") + 1
-		if (number > MAX) number = MAX;
-		$input.val(number)
-	})
+    var MAX = 99, MIN = 0;
+    $(document).on('click','.weui-count__decrease',function(e){
+        var $input = $(e.currentTarget).parent().find('.weui-count__number');
+        var number = parseInt($input.val() || "0") - 1;
+        var temp = $input[0].name; //数量
+        var dishesId = $input[0].id; //菜品ID
+        if(number>-1){
+            var sum = $("#sum").text();
+            sum =  Number(sum) - temp;
+            $("#sum").html(sum);
+            // $.ajax({
+            //     type:"post",
+            //     url:"/yiya/wx/Common/delWxMenu",
+            //     cache: false,
+            //     async: true,
+            //     data:{hyOpenid:hyOpenid,dishesId:dishesId}
+            // });
+        }
+        if (number < MIN) number = MIN;
+        $input.val(number);
+    });
+    $(document).on('click','.weui-count__increase',function(e){
+        var $input = $(e.currentTarget).parent().find('.weui-count__number');
+        var number = parseInt($input.val() || "0") + 1;
+        var temp = $input[0].name; //数量
+        var dishesId = $input[0].id; //菜品ID
+        if(number>-1){
+            var sum = $("#sum").text();
+            sum =  Number(sum) +  Number(temp);
+            $("#sum").html(sum);
+            // $.ajax({
+            //     type:"post",
+            //     url:"/yiya/wx/Common/saveWxMenu",
+            //     cache: false,
+            //     async: true,
+            //     data:{hyOpenid:hyOpenid,dishesId:dishesId}
+            // });
+        }
+        if (number > MAX) number = MAX;
+        $input.val(number);
+    });
+
 </script>
 </body>
 </html>

@@ -176,14 +176,15 @@
             elem: '#test'
             , url: '/reserve_tables_list/reserve-tables-list/queryAll.do'
             , cols: [[
-                {field: 'number', width: '12.5%', title: '编号', sort: true}
-                , {field: 'name', width: '12.5%', title: '姓名'}
-                , {field: 'people', width: '12.5%', title: '人数'}
-                , {field: 'reserved', width: '12.5%', title: '预留手机号'}
-                , {field: 'order_date', width: '12.5%', title: '下单日期'}
-                , {field: 'order_status', width: '12.5%', title: '状态', templet: '<div>{{d.order_status.name}}</div>'}
-                , {field: 'remark', width: '12.5%', title: '备注'}
-                , {fixed: 'right', title: '操作', toolbar: '#barDemo', width: '12.5%'}
+                {field: 'number', width: '9.1%', title: '编号', sort: true}
+                , {field: 'name', width: '11.1%', title: '姓名'}
+                , {field: 'people', width: '6.1%', title: '人数'}
+                , {field: 'reserved', width: '11.1%', title: '预留手机号'}
+                , {field: 'order_date', width: '15.1%', title: '下单日期'}
+                , {field: 'scheduled_time', width: '15.1%', title: '预定时间'}
+                , {field: 'order_status', width: '11.1%', title: '状态', templet: '<div>{{d.order_status.name}}</div>'}
+                , {field: 'remark', width: '11.1%', title: '备注'}
+                , {fixed: 'right', title: '操作', toolbar: '#barDemo', width: '12%'}
             ]]
             , page: true
             , limit: 9

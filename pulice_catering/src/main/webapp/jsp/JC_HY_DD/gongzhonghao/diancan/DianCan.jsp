@@ -274,7 +274,8 @@
 			<div class="page__bd weui-footer_fixed-bottom">
 				<div class="weui-flex">
 					<div class="footer_total col_8">
-						总计：¥18
+						(总计：¥
+						<span class="weui-count__number" id="sum" style="color:#E41310; padding: 0 5px;" >0</span>)
 					</div>
 					<div class="weui-flex__item">
 						<a href="/jsp/JC_HY_DD/gongzhonghao/diancan/JieSuan.jsp" class="weui-btn btn_blue btn_noradius">结算</a>

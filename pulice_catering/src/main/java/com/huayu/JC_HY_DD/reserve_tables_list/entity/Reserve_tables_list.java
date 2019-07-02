@@ -26,6 +26,8 @@ public class Reserve_tables_list implements Serializable {
 
     private String order_date;
 
+    private String scheduled_time;
+
     private Integer qsid;
 
     private String remark;
@@ -97,6 +99,14 @@ public class Reserve_tables_list implements Serializable {
 
     public void setOrder_status(Order_status order_status) {
         this.order_status = order_status;
+    }
+
+    public String getScheduled_time() {
+        return scheduled_time;
+    }
+
+    public void setScheduled_time(String scheduled_time) {
+        this.scheduled_time = scheduled_time;
     }
 
     @Override

@@ -42,14 +42,17 @@ public class Reserve_tables_listController {
     }
     @RequestMapping("/add.do")
     public String add(Reserve_tables_list reserve){
-//        long date = new Date().getTime() - 1300000000000L;
-//        System.out.println(date+"++++++++++++++++++++++++++++++++++++");
+        String str = "redirect:/reserve_tables_list/reserve-tables-list/toadd.do";
+        if(reserve.getQsid() == null || reserve.getQsid().equals("")){
+            reserve.setQsid(101);
+            str = "JC_HY_DD/gongzhonghao/order/AddOrder.jsp";
+        }
         Random random = new Random();
         int r= random.nextInt(111);
         String date = new SimpleDateFormat("yyyyMMdd").format(new Date()) + r;
         reserve.setNumber(date);
         reserveTablesList.save(reserve);
-        return "redirect:/reserve_tables_list/reserve-tables-list/toadd.do";
+        return str;
     }
 
     @RequestMapping("/queryAll.do")
